@@ -4,7 +4,6 @@ pipeline {
     stage('Build') {
       steps {
         sh '''mkdocs build
-ls -l_site/
 '''
       }
     }
